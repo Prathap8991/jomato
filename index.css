@@ -1,0 +1,237 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 60px;
+    /*border:2px solid red;*/
+    background-color:#3b2632;
+}
+#brand{
+    font-size:30px;
+    color:white;
+    float:left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#loginBtn{
+    float:right;
+    margin-top:1%;
+    margin-right:2%;
+}
+/*Search css*/
+#search{
+    width: 100%;
+    height: 500px;
+    /*border:2px solid blue;*/
+    background-image: url('images/foodWallpaper.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 44%;
+    margin-top: 2%;
+    position: absolute;
+}
+.logo>span{
+    margin-left: 21%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#heading{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 13%;
+}
+
+#dropdown{
+    width: 50%;
+    height: 60px;
+    margin-left: 28%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+select{
+    width: 40%;
+    height: 60px;
+    font-size: 15px;
+}
+#restselect{
+    width: 59%;
+    height: 60px;
+}
+
+/*quickSearch css*/
+#quicksearch{
+    width: 80%;
+    
+    margin-left: 10%;
+    margin-top: 2%;
+   
+}
+
+#QuickHeading{
+    color: #3b2632;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#QuickSubHeading{
+    color: gray;
+    line-height: 3;
+    font-size:20px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.tileContainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 10px 20px 10px gray;
+    
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-left: 1%;
+
+}
+.tileComponent1{
+    width: 52%;
+    float: left;
+
+}
+.tileComponent1>img{
+    width: 100%;
+    height: 180px;
+}
+.tileComponent2{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 13%;
+
+}
+.componentHeading{
+    color: #3b2632;
+    font-size: 25px;
+}
+.componentHeading a{
+    color: #3b2632;
+   
+}
+
+.componentsubHeading{
+    color: gray;
+    font-size: 20px;
+}
+/*Footer css*/
+footer{
+height: 130px;
+margin-top: 2%;
+background-color: #3b2632;
+color: white;
+text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footDiv{
+    float: left;
+    width:32%;
+    border-right:2px solid white;
+}
+.noBorder{
+    border: none;
+}
+
+@media screen and (max-width:1600px) {
+    body{
+        background-color: skyblue;
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color: lightgray;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color:lightgreen;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color: rgb(238, 19, 26);
+    }
+    .tileContainer{
+        width: 46%;
+    }
+    #heading{
+        
+        font-size: 40px;
+        color: white;
+        margin-left: 30%;
+        margin-top: 23%;
+    }
+    #dropdown{
+        width: 50%;
+        height: 60px;
+        
+        margin-top: 32%;
+        position: absolute;
+       
+    }
+    select{
+        width: 45%;
+        height: 60px;
+        font-size: 15px;
+        
+    }
+    #restselect{
+        width: 49%;
+        height: 60px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color: rgb(146, 196, 10);
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(6, 106, 104);
+    }
+    .tileContainer{
+        width: 100%;
+    }
+    
+}
