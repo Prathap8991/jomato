@@ -31,7 +31,6 @@ class PlaceOrder extends Component {
                     <div className="panel-heading">
                         <h3>Your Order Form Restaurant {this.props.match.params.restName}</h3>
                     </div>
-                    
                 
                 <div className='panel-body'>
                         <form>
