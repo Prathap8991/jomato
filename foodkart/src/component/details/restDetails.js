@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import MenuDisplay from './menuDisplay';
+import Header from '../../header';
 
 
 
@@ -38,6 +39,7 @@ class Details extends Component {
 
         return(
             <>
+            <Header/>
                 <div className='main'>
                     <div className='tileImage'>
                         <div className='imageClass'>

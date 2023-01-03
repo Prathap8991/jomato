@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import Display from './displayOrder';
+import Header from '../../header';
 
 const placeOrder = "http://localhost:3000/orders";
 
@@ -14,8 +15,20 @@ class ViewOrder extends Component{
         }
     }
     render(){
+        if(sessionStorage.getItem('loginStatus') === 'LoggedOut'){
+            return(
+                <>
+                    <Header/>
+                    <center>
+                        <h2>Login First to Check Orders</h2>
+                    </center>
+                </>
+            )
+        }
         return(
+            
             <>
+                <Header/>
                 <Display orderData={this.state.orders}/>
             </>
         )
